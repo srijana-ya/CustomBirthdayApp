@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/glitter"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="302dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/happy_birthday"
+        android:textColor="#020202"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/messageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <Button
+        android:id="@+id/messageButton"
+        android:layout_width="147dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/press_me_first"
+        app:layout_constraintBottom_toTopOf="@+id/cakeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginLeft="125dp" />
+
+    <Button
+        android:id="@+id/cakeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="34dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/as_sweet_as_you"
+        app:layout_constraintBottom_toTopOf="@+id/giftButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageButton" />
+
+    <Button
+        android:id="@+id/giftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="312dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/surprise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cakeButton" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="400dp"
+        android:layout_marginRight="400dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="@font/emilys_candy"
+        android:text="@string/_24th_may_2021"
+        android:textColor="#0C0707"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.697" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

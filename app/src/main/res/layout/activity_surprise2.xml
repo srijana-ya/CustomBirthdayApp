@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#040202"
+    tools:context=".SurpriseActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0C0A0A"
+        tools:ignore="MissingConstraints">
+
+
+        <Button
+            android:id="@+id/hairMask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="28dp"
+            android:background="#9A27AE"
+            android:backgroundTint="#9C27B0"
+            android:backgroundTintMode="add"
+            android:fontFamily="@font/emilys_candy"
+            android:text="Gift One"
+            app:layout_constraintBottom_toTopOf="@+id/naruto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.452"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/naruto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="117dp"
+            android:background="#9C27B0"
+            android:backgroundTint="#9C27B0"
+            android:fontFamily="@font/emilys_candy"
+            android:text="Gift Two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.671"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hairMask" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/glitter"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="2dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
